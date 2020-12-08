@@ -67,12 +67,9 @@ namespace InterfaceDemo
             double balance = 0;
             //int loop = 0;
 
-            for (int i = 0; i <= years; i++)
-            {
+            
                 balance = amount * Math.Pow((1 + interest), years);
 
-
-            }
             return balance;
 
         }
